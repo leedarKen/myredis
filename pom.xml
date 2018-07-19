@@ -117,4 +117,12 @@
       </plugins>
     </pluginManagement>
   </build>
+  <profiles>
+    <profile>
+      <id>ee</id>
+      <properties>
+        <ee>testEE</ee>
+      </properties>
+    </profile>
+  </profiles>
 </project>
